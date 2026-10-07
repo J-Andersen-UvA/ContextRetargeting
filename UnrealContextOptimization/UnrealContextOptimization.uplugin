@@ -1,0 +1,35 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Unreal Context Optimization",
+  "Description": "Editor-side context-aware animation optimization.",
+  "Category": "Animation",
+  "CreatedBy": "ContextRetargeting",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Plugins": [
+    {
+      "Name": "IKRig",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "ContextRetargetingCore",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "UnrealContextOptimization",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "UnrealContextOptimizationEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "presetName": "reconformUpperBody",
+  "description": "ReConForM-style upper-body surface-point approximation. Move every generated point from its bone origin to the intended mesh surface location.",
+  "points": [
+    { "pointName": "pelvisFront", "referenceBone": "Hip" },
+    { "pointName": "pelvisBack", "referenceBone": "Hip" },
+    { "pointName": "pelvisLeft", "referenceBone": "Hip" },
+    { "pointName": "pelvisRight", "referenceBone": "Hip" },
+    { "pointName": "abdomenFront", "referenceBone": "Waist" },
+    { "pointName": "abdomenBack", "referenceBone": "Waist" },
+    { "pointName": "chestFront", "referenceBone": "Spine02" },
+    { "pointName": "chestBack", "referenceBone": "Spine02" },
+    { "pointName": "chestLeft", "referenceBone": "Spine02" },
+    { "pointName": "chestRight", "referenceBone": "Spine02" },
+    { "pointName": "neckFront", "referenceBone": "NeckTwist02" },
+    { "pointName": "neckBack", "referenceBone": "NeckTwist02" },
+    { "pointName": "headTop", "referenceBone": "Head" },
+    { "pointName": "forehead", "referenceBone": "Head" },
+    { "pointName": "headBack", "referenceBone": "Head" },
+    { "pointName": "chin", "referenceBone": "Head" },
+    { "pointName": "cheekLeft", "referenceBone": "Head" },
+    { "pointName": "cheekRight", "referenceBone": "Head" },
+    { "pointName": "shoulderLeft", "referenceBone": "L_Clavicle" },
+    { "pointName": "upperArmLeft", "referenceBone": "L_Upperarm" },
+    { "pointName": "elbowLeft", "referenceBone": "L_Forearm" },
+    { "pointName": "forearmLeft", "referenceBone": "L_Forearm" },
+    { "pointName": "wristLeft", "referenceBone": "L_Hand" },
+    { "pointName": "palmLeft", "referenceBone": "L_Hand" },
+    { "pointName": "handBackLeft", "referenceBone": "L_Hand" },
+    { "pointName": "shoulderRight", "referenceBone": "R_Clavicle" },
+    { "pointName": "upperArmRight", "referenceBone": "R_Upperarm" },
+    { "pointName": "elbowRight", "referenceBone": "R_Forearm" },
+    { "pointName": "forearmRight", "referenceBone": "R_Forearm" },
+    { "pointName": "wristRight", "referenceBone": "R_Hand" },
+    { "pointName": "palmRight", "referenceBone": "R_Hand" },
+    { "pointName": "handBackRight", "referenceBone": "R_Hand" }
+  ],
+  "relationships": [
+    {
+      "pairing": "allOrderedPairs",
+      "points": "all",
+      "excludeSameTargetBone": true,
+      "weight": 1.0,
+      "useDistance": true,
+      "useDirection": true,
+      "usePenetration": true,
+      "useAdaptiveWeight": true
+    }
+  ]
+}
