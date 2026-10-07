@@ -14,14 +14,14 @@ Optimization
         <- UnrealContextOptimization
 ```
 
-- [`Optimization`](Optimization/README.md) is the domain-independent numerical
+- [Optimization](Optimization/README.md) is the domain-independent numerical
   layer. It contains central numerical gradients, Adam, and the generic
   `minimizeWithAdam()` operation.
-- [`ContextSolver`](ContextSolver/README.md) is the portable skeletal-animation
+- [ContextSolver](ContextSolver/README.md) is the portable skeletal-animation
   layer. It interprets parameters as local bone rotations, performs forward
   kinematics, evaluates context descriptors and losses, and returns scalar loss
   values to `Optimization`.
-- [`UnrealContextOptimization`](UnrealContextOptimization/README.md) is the
+- [UnrealContextOptimization](UnrealContextOptimization/README.md) is the
   Unreal Engine editor plugin. It provides point authoring, configuration
   assets, diagnostics, and animation baking.
 
