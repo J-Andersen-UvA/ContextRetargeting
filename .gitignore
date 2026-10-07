@@ -1,0 +1,93 @@
+# CMake build output
+/build/
+/build-*/
+/Optimization/build/
+/Optimization/build-*/
+/ContextSolver/build/
+/ContextSolver/build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+CMakeUserPresets.json
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Visual Studio and other IDE state
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.code-workspace
+
+# Compiled C and C++ output
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+*.exe
+*.pdb
+*.ilk
+*.exp
+
+# Unreal Engine generated output
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+FileOpenOrder/
+*.modules
+*.target
+*.xcodeproj/
+*.xcworkspace/
+
+# Unreal local and generated files
+*.autosave
+*.tmp
+*.log
+*.dmp
+CrashReportClient/
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Test and coverage output
+coverage/
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Local archives and packaged builds
+*.zip
+*.7z
+*.tar
+*.tar.gz
